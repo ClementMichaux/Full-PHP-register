@@ -157,7 +157,7 @@
     if(isset($_SESSION['id']) && isset($_SESSION['username'])) {
         
         // On envoi un header de redirection HTTP
-        header('Location: index.php');
+        header('Location: ../../index.php');
 
     // Sinon si l'utilisateur n'est pas déjà connecté
     } else {

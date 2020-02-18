@@ -1,0 +1,21 @@
+input {
+    display: block;
+    margin-bottom:10px;
+}
+
+input[type="submit"] {
+    margin-bottom:0px;
+}
+
+.message_error, .message_success {
+    display:block;
+    margin-bottom:20px;
+}
+
+.message_error {
+    color:red;
+}
+
+.message_success {
+    color:green;
+}

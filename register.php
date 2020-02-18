@@ -81,7 +81,7 @@
             // On affiche le message de réussite
             echo "<span class='message_success'>" . $_SESSION['successMessage'] . "</span>";
             echo "<br>";
-            echo "Vous pouvez maintenant vous <a href='login.php'>connecter</a>";
+            echo "Vous pouvez maintenant vous <a href='#'>connecter</a>";
 
             // On supprime le message de réussite de la variable session apres son affichage
             unset($_SESSION['successMessage']);

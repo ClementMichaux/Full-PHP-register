@@ -201,7 +201,6 @@
 
                 // On envoi un header de redirection HTTP
                 header('Location: ../../register.php');
-
             }
 
         // Sinon si tout les champs n'on pas été envoyé

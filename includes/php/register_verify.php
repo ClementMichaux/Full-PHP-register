@@ -140,12 +140,6 @@
             'password' => $passwordHash,
             'mail' => $mail
         ));
-
-        // On stocke le message de réussite dans la variable session pour l'afficher sur la page d'inscription
-        $_SESSION['successMessage'] = "Inscription réussie !";
-
-        // On envoi un header de redirection HTTP
-        header('Location: ../../register.php');
     }
 
 
@@ -185,6 +179,12 @@
                     
                     // On appel la fonction qui va ajouter un utilisateur
                     addNewUser($bdd, $username, $mail, $password);
+                    
+                    // On stocke le message de réussite dans la variable session pour l'afficher sur la page d'inscription
+                    $_SESSION['successMessage'] = "Inscription réussie !";
+
+                    // On envoi un header de redirection HTTP
+                    header('Location: ../../register.php');
 
                 // Sinon si l'username, le mail et le password ne sont pas valide
                 } else {

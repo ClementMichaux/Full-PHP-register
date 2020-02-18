@@ -7,4 +7,4 @@
 4. Test register.php
 
 ## Note
-This registration system is 100% php, so there is no javascript to contact the php file register_verify
+This registration system is 100% php, so there is no javascript to send the post HTTP request to the php file register_verify, this is done by the html form

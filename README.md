@@ -9,7 +9,9 @@
 ## Functionality
 ### Username
 Check length of username
+
 Check if username is valid with regex
+
 Check if username already exists in database
 
 ### E-mail
@@ -17,6 +19,7 @@ Check if e-mail is valid with regex
 
 ### Password
 Check length of password
+
 Check if password matches password confirmation
 
 ### Registration date

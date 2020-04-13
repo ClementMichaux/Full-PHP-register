@@ -69,11 +69,8 @@
 
     function verifMail($mail) {
 
-        // On créer un regex pour vérifier le mail
-        $regexMail = '#^[^\W][a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\@[a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\.[a-zA-Z]{2,4}$#';
-
         // Si le mail est validé par le regex
-        if(preg_match($regexMail, $mail)) {
+        if(filter_var($mail, FILTER_VALIDATE_EMAIL)) {
 
             // Le mail est valide
             return true;

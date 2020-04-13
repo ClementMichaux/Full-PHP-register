@@ -15,7 +15,7 @@ Check if username is valid with regex
 Check if username already exists in database
 
 ### E-mail
-Check if e-mail is valid with regex
+Check if e-mail is valid
 
 ### Password
 Check length of password
